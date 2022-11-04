@@ -9,7 +9,4 @@ RUN conda env update -f environment.yml -n base
 
 COPY run.py .
 
-COPY data /data
-
 CMD [ "python", "run.py"]
-
