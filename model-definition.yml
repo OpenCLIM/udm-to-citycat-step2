@@ -28,7 +28,7 @@ spec:
           buildings. The outputs should be in a shapefile format.
         default:
           - 93da1111-2718-4682-a168-2f3c9d3be2fc
-        path: inputs
+        path: inputs/
         required: false
 
       - name: Greenspaces
@@ -37,7 +37,7 @@ spec:
           existing greenspaces. The outputs should be in a shapefile format.
         default:
           - 93da1111-2718-4682-a168-2f3c9d3be2fc
-        path: inputs
+        path: inputs/
         required: false
    
   outputs:
