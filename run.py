@@ -15,13 +15,13 @@ gdf = gpd.read_file(os.path.join(result_data_dir,'all_buildings.shp'))
 Buildings(gdf).write(output_data_dir)
 
 # Just printing the output of the file to show what's in it
-with open(os.path.join(output_data_dir,'Buildings.txt')) as f:
-  print(*f.readlines()[:50])
+#with open(os.path.join(output_data_dir,'Buildings.txt')) as f:
+#  print(*f.readlines()[:50])
 
 # Reading in the greenspaces shapefile
 gdf = gpd.read_file(os.path.join(result_data_dir,'all_greenareas.shp'))
 GreenAreas(gdf).write(output_data_dir)
 
 # Just printing the output of the file to show what's in it
-with open(os.path.join(output_data_dir,'GreenAreas.txt')) as f:
-    print(*f.readlines()[:50])
+#with open(os.path.join(output_data_dir,'GreenAreas.txt')) as f:
+#    print(*f.readlines()[:50])
