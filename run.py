@@ -21,7 +21,7 @@ Buildings(gdf).write(output_data_dir)
 #  print(*f.readlines()[:50])
 
 # Reading in the greenspaces shapefile
-gdf = gpd.read_file(os.path.join(green_areas_data_dir,'all_greenareas.shp'))
+gdf = gpd.read_file(os.path.join(result_data_dir,'all_greenareas.shp'))
 GreenAreas(gdf).write(output_data_dir)
 
 # Just printing the output of the file to show what's in it
