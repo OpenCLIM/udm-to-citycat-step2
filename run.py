@@ -13,7 +13,7 @@ green_areas_data_dir = '/data/inputs/green_areas'
 os.makedirs(output_data_dir, exist_ok=True)
 
 # Reading in the buildings shapefile
-gdf = gpd.read_file(os.path.join(buildings_data_dir,'all_buildings.shp'))
+gdf = gpd.read_file(os.path.join(result_data_dir,'all_buildings.shp'))
 Buildings(gdf).write(output_data_dir)
 
 # Just printing the output of the file to show what's in it
